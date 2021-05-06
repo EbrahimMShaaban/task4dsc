@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:task4dsc/body.dart';
+
 
 class Home extends StatefulWidget {
   @override
@@ -95,26 +95,26 @@ class _HomeState extends State<Home> {
 
             //backgroundColor: Colors.red,
             icon: Icon(Icons.wrap_text),
-            title: Text("this"),
+            label: "this",
           ),
           BottomNavigationBarItem(
             //backgroundColor: Colors.white,
             //label: '2',
             icon: Icon(Icons.auto_awesome_motion),
-            title: Text("is"),
+            label: "is",
           ),
 
           BottomNavigationBarItem(
             icon: Icon(Icons.account_circle),
-            title: Text("A"),
+            label: "A"
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.widgets_rounded),
-            title: Text("Bottom"),
+            label: "Bottom"
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.info_outline),
-            title: Text("Bar"),
+            label: "Bar"
           ),
         ],
       ),
